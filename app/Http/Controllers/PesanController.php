@@ -44,7 +44,7 @@ class PesanController extends Controller
             $pesanan->tanggal = $tanggal;
             $pesanan->status = 0;
             $pesanan->jumlah_harga = 0;
-            //$pesanan->kode = mt_rand(100, 999);
+            $pesanan->kode = mt_rand(100, 999);
             $pesanan->save();
         }
 
